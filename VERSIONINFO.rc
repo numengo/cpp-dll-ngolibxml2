@@ -18,7 +18,7 @@ BEGIN
             VALUE "FileVersion",      "2.7rev2\0"
             VALUE "ProductName",      "numenGo|ToolBox\0"
             VALUE "ProductVersion",   "12.02rev0\0"
-            VALUE "LegalCopyright",   "Copyright © 2012 Numengo\0"
+            VALUE "LegalCopyright",   "Daniel Veillard\0"
         END
     END
 
