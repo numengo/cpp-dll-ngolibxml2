@@ -25,13 +25,13 @@
  */
 /* #define DEBUG_MEMORY_FREED */
 /* #define DEBUG_MEMORY_LOCATION */
-
+/*
 #ifdef DEBUG
 #ifndef DEBUG_MEMORY
 #define DEBUG_MEMORY
 #endif
 #endif
-
+*/
 /**
  * DEBUG_MEMORY_LOCATION:
  *
