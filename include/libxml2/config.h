@@ -6,6 +6,7 @@
 #define HAVE_MALLOC_H
 #define HAVE_ERRNO_H
 
+//#ifdef defined(_WIN32_WCE)
 #if defined(_WIN32_WCE)
 #undef HAVE_ERRNO_H
 #include <windows.h>
@@ -95,7 +96,9 @@ static int isnan (double d) {
 
 #if defined(_MSC_VER)
 #define mkdir(p,m) _mkdir(p)
+#if _MSC_VER < 1900
 #define snprintf _snprintf
+#endif
 #if _MSC_VER < 1500
 #define vsnprintf(b,c,f,a) _vsnprintf(b,c,f,a)
 #endif
