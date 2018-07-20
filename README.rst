@@ -1,4 +1,4 @@
-NgoLibxml2 (v2.8.2) - binding to libxml2
+NgoLibxml2 (vv2.8.4.) - binding to libxml2
 ======================================================================
 
 
